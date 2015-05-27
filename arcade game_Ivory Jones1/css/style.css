@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+
+#win {
+	font-size: 24px;
+	color:#0ABA1A;
+}
+
+p {
+	font-size: 24px;
+	color:#0ABA1A;
+}
