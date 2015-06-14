@@ -4,6 +4,7 @@ var enemyPosY  = [50, 100, 150, 200, 250];
 var enemySpeed = [50, 80, 110, 140, 170];
 var numberEnemies = 7;
 
+var collisionProx = 50; // added collision 
 
 
 var Score = function () {
@@ -45,7 +46,11 @@ Enemy.prototype.update = function(dt) {
     }
 
   }
-
+ if (player.y >= this.y - collisionProx && player.y <= this.y + collisionProx) {
+        if (player.x >= this.x - collisionProx && player.x <= this.x + collisionProx) {
+        player.reset();
+        }
+    }
   };
 
 
