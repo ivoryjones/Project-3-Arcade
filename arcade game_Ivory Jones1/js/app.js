@@ -4,7 +4,7 @@ var enemyPosY  = [50, 100, 150, 200, 250];
 var enemySpeed = [50, 80, 110, 140, 170];
 var numberEnemies = 7;
 
-var collisionProx = 50; // added collision 
+var collisionProx = 50; // added collision variable
 
 
 var Score = function () {
