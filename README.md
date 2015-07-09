@@ -1,4 +1,4 @@
-Ivory Jones
+Ivory Jones - Classic Arcade Game 'Frogger'
 
 To play the game click on index.html
 
